@@ -10,3 +10,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: #2d8cec;
+    font-size: 20px;
+    font-family: 'Handlee',cursive;
+}
+.main-content{
+    border-color: blue;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuerpo{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 330px;
+    margin: 0px;
+    border-radius: 3%;
+}
+.red{
+    background: gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.yellow{
+    background: gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.green{
+    background: gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
