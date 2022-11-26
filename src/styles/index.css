@@ -31,25 +31,63 @@ body{
     height: 330px;
     margin: 0px;
     border-radius: 3%;
+    z-index: 1;
 }
-.red{
-    background: gray;
+.red-on{
+    background: red;
+    box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+    -moz-box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 50%;
+    z-index: 2;
 }
-.yellow{
-    background: gray;
+.yellow-on{
+    background: yellow;
+    box-shadow: 1px -1px 30px 10px rgb(255, 247, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgba(255,247,0);
+    -moz-box-shadow: 1px -1px 30px 10px rgba(255,247,0);
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 50%;
+    z-index: 2;
 }
-.green{
-    background: gray;
+.green-on{
+    background: rgb(3, 247, 3);
+    box-shadow: 1px -1px 30px 10px rgb(31, 219, 0);
+    -webkit-box-shadow: 1px -1px 30px 10px rgba(31,219,0);
+    -moz-box-shadow: 1px -1px 30px 10px rgba(31,219,0);
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 50%;
+    z-index: 2;
+}
+
+.red-off{
+    background: rgb(55, 2, 2);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.yellow-off{
+    background: rgb(108, 108, 1);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.green-off{
+    background: rgb(0, 47, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    z-index: 2;
 }
